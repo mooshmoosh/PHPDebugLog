@@ -72,11 +72,13 @@ The scope for this project should not go beyond making one giant log file contai
 Obvious Questions
 -----------------
 
-Q. Why is it written in python? Most PHP tools are written in PHP.
-A. PHP is awful, the whole point is to write less of it.
+*Q.* Why is it written in python? Most PHP tools are written in PHP.
 
-Q. How does it deal with circular references?
-A. When it gets the value of a variable it also gets its address in memory. It keeps a record of all the memory addresses it has "visited" and the name of the variable located there. When it evaluates a variable it has already visited it returns "Reference to {name}."
+*A.* PHP is awful, the whole point is to write less of it.
+
+*Q.* How does it deal with circular references?
+
+*A.* When it gets the value of a variable it also gets its address in memory. It keeps a record of all the memory addresses it has "visited" and the name of the variable located there. When it evaluates a variable it has already visited it returns "Reference to {name}."
 
 This does however raise an interesting problem. Consider the following illustrative PHP code
 
