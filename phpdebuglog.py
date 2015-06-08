@@ -119,7 +119,6 @@ class XdebugClient:
         self.transactionNumber = 0
         self.status = 'break'
         self.lastResponse = None
-        self.currentState = XDebugState()
         self.config = None
 
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
