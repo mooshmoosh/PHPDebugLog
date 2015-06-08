@@ -1,0 +1,22 @@
+{
+    "files" : [
+        {
+            "local" :               "index.php",
+            "remote" :              "index.php",
+            "ignore_variables" :    [
+                                        "$hello"
+                                    ]
+        },
+        {
+            "local" :               "requiredFile.php",
+            "remote" :              "requiredFile.php",
+            "ignore_variables" :    [
+                                        "$this"
+                                    ],
+            "lines" :               [
+                                        5
+                                    ]
+        }
+
+    ]
+}
