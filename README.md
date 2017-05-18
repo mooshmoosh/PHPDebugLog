@@ -82,8 +82,8 @@ Obvious Questions
 
 This does however raise an interesting problem. Consider the following illustrative PHP code
 
-    $EmployeeRecord = stdClass();
-    $EmployeeRecord->Contact = stdClass();
+    $EmployeeRecord = new stdClass();
+    $EmployeeRecord->Contact = new stdClass();
 
     $employeeName = "Gerald"
 
